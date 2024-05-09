@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <script>
+    function
+  </script>
+  <link rel="stylesheet" href="Login_style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login</h1>
+    <form id="loginForm" onsubmit="redirectHomePage()(event)">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    <br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    <button class=" login" onclick="loginFunc()"
+    <br><br>
+    </form>
+  </div>
+
+  <!-- <script src="Login_script.js"></script> -->
+  <script>
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    if (username == 'starter' && password == '12345'){
+      window.location.assign("Home.html")//unable to redirect to home page?
+    }
+    else {
+      alert ("login failed")
+    }
+  </script>
+</body>
+</html>

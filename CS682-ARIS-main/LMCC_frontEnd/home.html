@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata and Title -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASA LMCC</title>
+
+   <!-- External Scripts -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script
+  src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCwHmDzo0owEdO1eM4erdTOO5tOAuhzTRY&callback=initMap&v=weekly"
+  defer
+></script>
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Home Page</h1>
+    <nav>
+      <!-- Navigation Menu -->
+      <a href="#">Geo Samples</a>
+      <a href="#">About us</a>
+      <a href="#">Rover Telemetry</a>
+    </nav>
+  </header>
+
+  <main id=" main-container">
+    <section id="task-list">
+      <h2>TASK LIST</h2>
+       <!-- Task List Section -->
+       <!-- Task List Items -->
+      <ul id="tasks">
+        <li id="task-1">
+          <input type="checkbox" id="checkbox-1">
+          <label for="checkbox-1">Perform UIA Egress</label>
+    
+        </li>
+
+        <li id="task-2">
+          <input type="checkbox" id="checkbox-2">
+          <label for="checkbox-2">Send Rover to C1</label>
+        </li>
+
+        <li id="task-3">
+          <input type="checkbox" id="checkbox-3">
+          <label for="checkbox-3">Geo Sampling at MCC</label>
+       
+        </li>
+      </ul>
+    </section>
+
+<!-- Add Task Section -->
+    <section id="add-task">
+      <h2>Add Task</h2>
+      <input type="text" id="new-task" placeholder="Enter task">
+      <button onclick="addTask()">Add Task</button>
+    </section>
+<!-- Camera Feed Section -->
+<!-- <section id="camera-feed-container">
+  <h2>Camera Feed</h2>
+  <canvas id="camera-feed" width="640" height="480"></canvas>
+</section> -->
+
+   <!-- Map Container Section -->
+<section id="map-container">
+  <div id="map"></div>  
+</section>
+   <!-- Astronauts Section -->
+    <section id="astronauts">
+      <h2>Astronauts</h2>
+
+      <ul id="astronauts-list">
+        <!-- Astronaut details remain unchanged -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; University Of Massachusetts</p>
+  </footer>
+
+  
+  <script type="module" src="script.js"></script>
+</body>
+</html>
