@@ -26,5 +26,4 @@ This README is a guide for navigating the many folders and files in this reposit
 
 -*Sal Baez (CE) Co-Team Lead, 
 Fisseha Tegegne (EE) Co-Team Lead,
-John Scovell (EE) Junior Member
-/Team 4*
+John Scovell (EE) Junior Member*
