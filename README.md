@@ -1,5 +1,5 @@
 # Project-ARIS
-A collection of programs for sensor data processing, machine learning, GPS integration, and hub-to-hub communication in a distributed system.
+A collection of programs for sensor data processing, machine learning, GPS integration, and hub-to-hub communication in a distributed system. All files are in this Google Drive: https://drive.google.com/drive/folders/1TDeO9jrBaVlAoOB7IxtzkSROdyFAsIbH?usp=sharing. This GitHub does not contain all files - specifically for ARIS-Beacon Unity files.
 # Project README
 
 This README is a guide for navigating the many folders and files in this repository. Start at the top and work your way down the list. Importantly, read the NASA SUITS mission description to understand the concepts and intentions of the design. Here is our video: https://youtu.be/8anOoq1N8Tc?feature=shared. Here is the previous team's video: https://youtu.be/KLRMTx8ZErM?feature=shared.
